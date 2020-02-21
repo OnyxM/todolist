@@ -9,6 +9,8 @@ class UsersTableSeeder extends Seeder {
 	 * @return void
 	 */
 	public function run() {
+
+		// {"name":"0hn43c5k1_m3","email":"email@domain.com","password":"passwd1234"}
 		App\User::create([
 			'name' => "Onyx",
 			'email' => "email@domain.com",
