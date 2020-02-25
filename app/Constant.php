@@ -12,5 +12,5 @@ class Constant extends Model {
 	const TODOCOMPLETED = '2'; // todo terminé
 	const TODOCANCELED = '3'; // todo
 
-	const TTLTOKEN = 6000000; // Temps de vie du token
+	const TTLTOKEN = 60; // Temps de vie du token
 }
